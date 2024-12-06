@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class Dog:
     def __init__(self, name, age):
         self.name = name
@@ -26,7 +26,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
 class Dog:
     def __init__(self, name, age):
         self.name = name
@@ -54,4 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> 15be036 (Added chap3 to chap9 folders)
+
