@@ -68,6 +68,4 @@ numba and numpy for GPU computing examples
 concurrent.futures for ThreadPoolExecutor
 multiprocessing and threading for concurrent and parallel programming examples
 
-You can install the required libraries using:
 
-pip install mpi4py numba numpy
