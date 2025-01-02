@@ -1,12 +1,9 @@
-BASICS FOLDER:
-
+BASICS FOLDER
 CODE 1: Basic calculator using Python.
 CODE 2: Python code implementing lists, dictionaries, and tuples.
 CODE 3: Function to calculate sum.
 CODE 4: Using classes and objects.
-
-CHAP 1:
-
+CHAP 1
 BANK.PY: Uses multithreading to perform deposit and withdrawal operations on a shared balance while measuring execution time.
 DATA_PARALLELISM.PY: Uses a thread pool to execute two tasks (task_1 and task_2) concurrently using ThreadPoolExecutor.
 DO_SOMETHING.PY: Defines a function do_something that generates random numbers and adds them to a given list for a specified count.
@@ -19,9 +16,7 @@ PARALLELIZATION.PY: Performs parallel vector addition using threads and measures
 PROCESS_CREATION.PY: Demonstrates multiprocessing to calculate the square and cube of a number concurrently.
 SHARED_MEM.PY: Demonstrates threading with a lock to safely manage deposits and withdrawals on a shared balance.
 SYNCHRONIZATION.PY: Demonstrates the use of a semaphore to control access to a shared resource, allowing only one thread at a time.
-
-CHAP 2:
-
+CHAP 2
 BARRIER.PY: Simulates a race between three runners using threads and a barrier to synchronize their arrival at the finish line.
 CONDITION.PY: Implements a producer-consumer problem using threading and a condition variable to synchronize the producer and consumer threads.
 EVENT.PY: Implements a simple producer-consumer problem using threading and an event to synchronize threads.
@@ -33,9 +28,7 @@ SEMAPHORE.PY: Demonstrates the use of semaphores to synchronize producer and con
 THREADDEFINITON.PY: Creates and starts 10 threads, each calling the my_func function with a unique thread number.
 THREAD_DETERMINE.PY: Creates three threads, each executing a different function (function_A, function_B, function_C).
 THREAD_NAME_AND_PROCESSES.PY: Creates two threads, each printing the thread name and process ID, and joins them to wait for completion.
-
-CHAP 3:
-
+CHAP 3
 COMMUNICATING_WITH_PIPE.PY: Demonstrates producer-consumer communication using multiprocessing.Queue.
 COMMUNICATION_WITH_QUEUE.PY: Demonstrates multiprocessing with both daemon and non-daemon processes.
 DEROM.PY: Demonstrates creation and management of a multiprocessing process that runs a task, terminates, and joins back.
@@ -48,9 +41,7 @@ RUN_BACKGROUND_PROCESSES_NO_DAMEONS.PY: Demonstrates synchronization using barri
 RUN_BACKGROUND_PROCESSES.PY: Demonstrates the creation of processes using the multiprocessing module.
 SPAWNING_PROCEESSES_NAMESPACE.PY: Creates two processes using the multiprocessing module.
 SPAWNING_PROCESSES.PY: Prints messages and simulates tasks with different processes.
-
-CHAP 4:
-
+CHAP 4
 GATHER.PY: Collects data from all processes at the root process for aggregation or further processing.
 POINT_TO_POINT_COMMUNICATION.PY: Implements point-to-point communication between specific processes using send and recv.
 BROADCAST.PY: Broadcasts a variable from the root process to all other processes in the communicator.
