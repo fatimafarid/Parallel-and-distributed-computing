@@ -1,3 +1,4 @@
+#code6
 import time
 import os
 from random import randint
