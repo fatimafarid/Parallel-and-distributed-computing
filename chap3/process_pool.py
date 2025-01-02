@@ -1,4 +1,4 @@
-#Using a Process Pool – Chapter 3: Process Based Parallelism
+#code number
 import multiprocessing
 
 def function_square(data):
@@ -14,3 +14,4 @@ if __name__ == '__main__':
     pool.close() 
     pool.join()  
     print ('Pool    :', pool_outputs)
+    
