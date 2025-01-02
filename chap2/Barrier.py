@@ -1,3 +1,4 @@
+#code1
 from random import randrange
 from threading import Barrier, Thread
 from time import ctime, sleep
