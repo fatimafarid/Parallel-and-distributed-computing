@@ -1,4 +1,6 @@
 DESCRIPTIONS:
+
+
 scatter.py:
 Demonstrates scattering an array from the root process to all other processes.
 
@@ -22,4 +24,5 @@ OUTPUT OF SCATTER.PY
 ![SCATTER PY](https://github.com/user-attachments/assets/a9b9a39a-dd19-40d9-9ff0-84ff99c3573f)
 
 OUTPUT OF GATHER.PY
+
 ![GATHER PY](https://github.com/user-attachments/assets/c2f7277b-f178-4af5-bf2a-0a0ce348cb2b)
