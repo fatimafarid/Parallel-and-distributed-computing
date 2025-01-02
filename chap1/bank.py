@@ -1,3 +1,4 @@
+#code 1
 import threading
 import time  # Added to measure time
 
