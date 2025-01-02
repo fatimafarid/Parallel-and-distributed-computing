@@ -1,62 +1,53 @@
-# BASICS FOLDER:
+BASICS FOLDER
 
-CODE 1: BASIC CALCULATOR USING PYTHON
+CODE 1: Basic calculator using Python.
+CODE 2: Python code implementing lists, dictionaries, and tuples.
+CODE 3: Function to calculate sum.
+CODE 4: Using classes and objects.
 
-CODE 2: PYTHON CODE IMPLEMENTING LIST DICTIONARY AND TUPLES
+CHAP 1
+BANK.PY: Uses multithreading to perform deposit and withdrawal operations on a shared balance while measuring execution time.
+DATA_PARALLELISM.PY: Uses a thread pool to execute two tasks (task_1 and task_2) concurrently using ThreadPoolExecutor.
+DO_SOMETHING.PY: Defines a function do_something that generates random numbers and adds them to a given list for a specified count.
+FIBONACCI.PY: Creates multiple threads to calculate the 35th Fibonacci number concurrently and measures the total execution time.
+HELLO.PY: Performs data-parallel vector addition using NumPy, measures computation time, and displays the first 10 results.
+IPC.PY: Demonstrates inter-process communication using a queue, where a producer adds items and a consumer retrieves them in separate processes.
+MPI.PY: Uses MPI to enable communication between processes, where process 0 sends data to process 1, and other processes remain idle.
+MULTIPROCESSING.PY: Compares the performance of multiprocessing and multithreading for a task that generates large random numbers and measures their execution times.
+PARALLELIZATION.PY: Performs parallel vector addition using threads and measures execution time.
+PROCESS_CREATION.PY: Demonstrates multiprocessing to calculate the square and cube of a number concurrently.
+SHARED_MEM.PY: Demonstrates threading with a lock to safely manage deposits and withdrawals on a shared balance.
+SYNCHRONIZATION.PY: Demonstrates the use of a semaphore to control access to a shared resource, allowing only one thread at a time.
 
-CODE 3: FUNCTION TO CALCULATE SUM
+CHAP 2
+BARRIER.PY: Simulates a race between three runners using threads and a barrier to synchronize their arrival at the finish line.
+CONDITION.PY: Implements a producer-consumer problem using threading and a condition variable to synchronize the producer and consumer threads.
+EVENT.PY: Implements a simple producer-consumer problem using threading and an event to synchronize threads.
+MYTHREADCLASS.PY: Creates and runs 9 threads using the Thread class, with each thread simulating a task with a random duration.
+MYTHREADCLASS_LOCK.PY: Runs 9 threads with a lock mechanism to ensure only one thread executes its critical section at a time.
+MYTHREADCLASS_LOCK2.PY: Threads simulate random durations while ensuring mutual exclusion using a lock for printing messages.
+RLOCK.PY: Demonstrates the use of threads and reentrant locks to add and remove items from a shared box concurrently.
+SEMAPHORE.PY: Demonstrates the use of semaphores to synchronize producer and consumer threads.
+THREADDEFINITON.PY: Creates and starts 10 threads, each calling the my_func function with a unique thread number.
+THREAD_DETERMINE.PY: Creates three threads, each executing a different function (function_A, function_B, function_C).
+THREAD_NAME_AND_PROCESSES.PY: Creates two threads, each printing the thread name and process ID, and joins them to wait for completion.
 
-CODE 4: USING CLASSES AND OBJECTS
+CHAP 3
+COMMUNICATING_WITH_PIPE.PY: Demonstrates producer-consumer communication using multiprocessing.Queue.
+COMMUNICATION_WITH_QUEUE.PY: Demonstrates multiprocessing with both daemon and non-daemon processes.
+DEROM.PY: Demonstrates creation and management of a multiprocessing process that runs a task, terminates, and joins back.
+MYFUNC.PY: Function designed to be called from a process, printing process number and iteration indices.
+NAMING_PROCESSES.PY: Demonstrates naming and execution of multiple processes using the multiprocessing module.
+POINT_TO_POINT_COMMUNICATION.PY: Demonstrates message passing between processes using mpi4py.
+PROCESS_IN_SUBCLASS.PY: Demonstrates creation and execution of processes using subclasses.
+PROCESSES_BARRIER.PY: Demonstrates parallel processing using multiprocessing.Pool.
+RUN_BACKGROUND_PROCESSES_NO_DAMEONS.PY: Demonstrates synchronization using barriers and serialization with locks.
+RUN_BACKGROUND_PROCESSES.PY: Demonstrates the creation of processes using the multiprocessing module.
+SPAWNING_PROCEESSES_NAMESPACE.PY: Creates two processes using the multiprocessing module.
+SPAWNING_PROCESSES.PY: Prints messages and simulates tasks with different processes.
 
-# CHAP1
-
-BANK.PY: THIS CODE USES MULTITHREADING TO PERFORM DEPOSIT AND WITHDRAWAL OPERATIONS ON A SHARED BALANCE WHILE MEASURING EXECUTION TIME.
-
-DATA_PARALLELISM.PY: THIS CODE USES A THREAD POOL TO EXECUTE TWO TASKS (TASK_1 AND TASK_2) CONCURRENTLY USING THREADPOOLEXECUTOR.
-
-DO_SOMETHING.PY: THIS CODE DEFINES A FUNCTION DO_SOMETHING THAT GENERATES RANDOM NUMBERS AND ADDS THEM TO A GIVEN LIST FOR A SPECIFIED COUNT.
-
-FIBONACCI.PY: THIS CODE CREATES MULTIPLE THREADS TO CALCULATE THE 35TH FIBONACCI NUMBER CONCURRENTLY AND MEASURES THE TOTAL EXECUTION TIME.
-
-HELLO.PY: THIS CODE PERFORMS DATA PARALLEL VECTOR ADDITION USING NUMPY, MEASURES THE COMPUTATION TIME, AND DISPLAYS THE FIRST 10 RESULTS.
-
-IPC.PY: THIS CODE DEMONSTRATES INTER-PROCESS COMMUNICATION USING A QUEUE, WHERE A PRODUCER ADDS ITEMS AND A CONSUMER RETRIEVES THEM IN SEPARATE PROCESSES.
-
-MPI.PY: THIS CODE USES MPI TO ENABLE COMMUNICATION BETWEEN PROCESSES, WHERE PROCESS 0 SENDS DATA TO PROCESS 1, AND OTHER PROCESSES REMAIN IDLE.
-
-MULITPROCESSING.PY: THIS CODE COMPARES THE PERFORMANCE OF MULTIPROCESSING AND MULTITHREADING FOR A TASK THAT GENERATES LARGE RANDOM NUMBERS AND MEASURES THEIR EXECUTION TIMES.
-
-PARALLELIZATION.PY: THIS CODE PERFORMS PARALLEL VECTOR ADDITION USING THREADS AND MEASURES EXECUTION TIME.
-
-PROCESS_CREATION.PY: THIS CODE DEMONSTRATES MULTIPROCESSING TO CALCULATE THE SQUARE AND CUBE OF A NUMBER CONCURRENTLY.
-
-SHARED_MEM.PY: THIS CODE DEMONSTRATES THREADING WITH A LOCK TO SAFELY MANAGE DEPOSITS AND WITHDRAWALS ON A SHARED BALANCE.
-
-SYNCHRONIZATION.PY: THIS CODE DEMONSTRATES THE USE OF A SEMAPHORE TO CONTROL ACCESS TO A SHARED RESOURCE, ALLOWING ONLY ONE THREAD AT A TIME.
-g
-# CHAP2
-
-BARRIER.PY: THIS CODE SIMULATES A RACE BETWEEN THREE RUNNERS USING THREADS AND A BARRIER TO SYNCHRONIZE THEIR ARRIVAL AT THE FINISH LINE.
-
-CONDITION.PY: THIS CODE IMPLEMENTS A PRODUCER-CONSUMER PROBLEM USING THREADING AND A CONDITION VARIABLE TO SYNCHRONIZE THE PRODUCER AND CONSUMER THREADS. THE PRODUCER ADDS ITEMS TO A SHARED LIST, AND THE CONSUMER REMOVES ITEMS, WAITING IF THERE ARE NO ITEMS TO CONSUME AND NOTIFYING WHEN AN ITEM IS PRODUCED OR CONSUMED.
-
-EVENT.PY: THIS CODE IMPLEMENTS A SIMPLE PRODUCER-CONSUMER PROBLEM USING THREADING AND AN EVENT TO SYNCHRONIZE THE PRODUCER AND CONSUMER THREADS. THE PRODUCER THREAD APPENDS RANDOM ITEMS TO A SHARED LIST AND NOTIFIES THE CONSUMER THREAD, WHICH POPS ITEMS FROM THE LIST. THE EVENT IS USED TO CONTROL THE FLOW BETWEEN PRODUCER AND CONSUMER, MAKING SURE THE CONSUMER ONLY CONSUMES WHEN ITEMS ARE AVAILABLE.
-
-MYTHREADCLASS.PY: THIS CODE CREATES AND RUNS 9 THREADS USING THE Thread CLASS FROM THE threading MODULE. EACH THREAD HAS A RANDOM DURATION (BETWEEN 1 AND 10 SECONDS) FOR WHICH IT SLEEPS, SIMULATING A TASK. THE THREADS PRINT MESSAGES WHEN THEY BEGIN AND END, INCLUDING THE PROCESS ID. THE join() METHOD IS USED TO ENSURE THAT THE MAIN THREAD WAITS FOR ALL THREADS TO FINISH BEFORE PRINTING "End" AND DISPLAYING THE EXECUTION TIME.
-
-MYTHREADCLASS_LOCK.PY: THIS CODE CREATES AND RUNS 9 THREADS WITH A LOCK MECHANISM TO ENSURE THAT ONLY ONE THREAD CAN EXECUTE ITS CRITICAL SECTION (THE PART WHERE IT PRINTS MESSAGES AND SLEEPS) AT A TIME. THE threadLock.acquire() CALL ENSURES THAT ONLY ONE THREAD ENTERS THE CRITICAL SECTION AT ONCE, AND THE threadLock.release() CALL RELEASES THE LOCK AFTER THE THREAD HAS COMPLETED ITS TASK. THE THREADS PRINT MESSAGES WHEN THEY BEGIN AND END, INCLUDING THE PROCESS ID, AND THE MAIN THREAD WAITS FOR ALL THREADS TO FINISH BEFORE DISPLAYING "End" AND THE EXECUTION TIME.
-
-MYTHREADCLASS_LOCK2.PY: THREADS SIMULATE RANDOM DURATIONS WHILE ENSURING MUTUAL EXCLUSION USING A LOCK FOR PRINTING MESSAGES.
-
-RLOCK.PY: THIS CODE DEMONSTRATES THE USE OF THREADS AND REENTRANT LOCKS TO ADD AND REMOVE ITEMS FROM A SHARED BOX CONCURRENTLY.
-
-SEMAPHORE.PY: THIS CODE DEMONSTRATES THE USE OF SEMAPHORES TO SYNCHRONIZE THE PRODUCER AND CONSUMER THREADS, WHERE THE PRODUCER GENERATES AN ITEM AND THE CONSUMER CONSUMES IT.
-
-THREADDEFINITON.PY: THIS CODE CREATES AND STARTS 10 THREADS, EACH CALLING THE my_func FUNCTION WITH A UNIQUE THREAD NUMBER.
-
-THREAD_DETERMINE.PY: THIS CODE CREATES THREE THREADS, EACH EXECUTING A DIFFERENT FUNCTION (function_A, function_B, function_C) AND PRINTING MESSAGES BEFORE AND AFTER SLEEPING FOR 2 SECONDS.
-
-THREAD_NAME_AND_PROCESSES.PY: THIS CODE CREATES TWO THREADS (Thread#1 AND Thread#2), EACH PRINTING THE THREAD NAME AND PROCESS ID, AND THEN JOINS THEM TO WAIT FOR THEIR COMPLETION BEFORE PRINT
-
-hello
-fatima
+CHAP 4
+GATHER.PY: Collects data from all processes at the root process for aggregation or further processing.
+POINT_TO_POINT_COMMUNICATION.PY: Implements point-to-point communication between specific processes using send and recv.
+BROADCAST.PY: Broadcasts a variable from the root process to all other processes in the communicator.
+SCATTER.PY: Implements scatter between processes.
