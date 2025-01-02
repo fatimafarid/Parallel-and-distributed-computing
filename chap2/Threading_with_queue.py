@@ -1,5 +1,5 @@
 """"Thread synchronisation with queue"""
-
+#use queue
 from threading import Thread
 from queue import Queue
 import time
