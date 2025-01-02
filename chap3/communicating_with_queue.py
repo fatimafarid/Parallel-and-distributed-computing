@@ -1,3 +1,4 @@
+#communicate with queue
 import multiprocessing
 import random
 import time
