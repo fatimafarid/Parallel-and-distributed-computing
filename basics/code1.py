@@ -1,4 +1,4 @@
-
+#CODE 1
 def calculator():
     operation = input("Select operation (+, -, *, /): ")
     num1 = float(input("Enter first number: "))
