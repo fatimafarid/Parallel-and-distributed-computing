@@ -52,3 +52,17 @@ This script demonstrates the use of threading in Python with synchronization thr
 
 
 OUTPUTS:
+![Screenshot (987)](https://github.com/user-attachments/assets/eb6805fd-4a55-40e0-88d6-91457e13120e)
+![Screenshot (988)](https://github.com/user-attachments/assets/f92ce4b6-72c8-4ef9-bfe4-747044a85048)
+![Screenshot (989)](https://github.com/user-attachments/assets/a9e33c69-29cb-454f-9c53-d3a1ddabb611)
+![Screenshot (990)](https://github.com/user-attachments/assets/41b4abc8-e780-4d54-b1f6-5ff715576b84)
+![Screenshot (991)](https://github.com/user-attachments/assets/fcc7f37d-85c3-4c74-93a5-9d20a5baa294)
+![Screenshot (992)](https://github.com/user-attachments/assets/7162a88c-7ab5-4fb7-babf-2271619eb298)
+![Screenshot (993)](https://github.com/user-attachments/assets/3693fc6c-a580-416d-8c14-0a733ae32ef1)
+![Screenshot (994)](https://github.com/user-attachments/assets/8ddd14b0-4888-46d9-bda0-03d35c885593)
+![Screenshot (995)](https://github.com/user-attachments/assets/ec9d1405-c478-4c05-9c07-0fae663e15c4)
+![Screenshot (996)](https://github.com/user-attachments/assets/ca1bf876-93f8-45de-b1d7-b8d07a8bd8fa)
+![Screenshot (997)](https://github.com/user-attachments/assets/697c1bd9-039c-4d15-81d8-257a5b523ad0)
+![Screenshot (998)](https://github.com/user-attachments/assets/3f499a70-bd9b-454f-bbf1-bd7ff295afba)
+![Screenshot (999)](https://github.com/user-attachments/assets/6d08a957-e722-4e80-95bc-4ed64adbd1ab)
+![Screenshot (1000)](https://github.com/user-attachments/assets/d771a725-2756-4ab0-94eb-16d76e0a7a0e)
