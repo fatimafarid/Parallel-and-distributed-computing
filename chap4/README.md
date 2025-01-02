@@ -1,3 +1,4 @@
+DESCRIPTIONS:
 scatter.py:
 Demonstrates scattering an array from the root process to all other processes.
 
