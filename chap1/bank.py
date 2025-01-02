@@ -35,7 +35,7 @@ end_time = time.time()
 # Calculate and print execution time
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time} seconds")
-=======
+
 import threading
 import time  # Added to measure time
 
@@ -72,4 +72,4 @@ end_time = time.time()
 # Calculate and print execution time
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time} seconds")
->>>>>>> 15be036 (Added chap3 to chap9 folders)
+
