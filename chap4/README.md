@@ -1,3 +1,5 @@
+
+#hello
 SCATTER.PY
 Demonstrates scattering an array from the root process to all other processes.
 
