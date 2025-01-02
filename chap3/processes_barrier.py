@@ -1,4 +1,4 @@
-#
+#barrier
 import multiprocessing
 from multiprocessing import Barrier, Lock, Process
 from time import time
