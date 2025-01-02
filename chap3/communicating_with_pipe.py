@@ -1,4 +1,4 @@
-##Using Pipes with multiprocessing – Chapter 3: Process Based Parallelism
+##Using Pipes with multiprocessing – Chapter 3: Process Based Parallelisms
 
 import multiprocessing 
  
