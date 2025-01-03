@@ -22,7 +22,7 @@ MANIPULATING_TASK.PY
 
 This code uses asyncio to concurrently compute the factorial and Fibonacci sequence of a number, with each task performing its computation asynchronously while awaiting for the next iteration.
 
-TASKY.PY
+TASK.PY
 
 This code demonstrates sequential, thread pool, and process pool execution of a computationally heavy task (simulating a count). It compares the execution time for each method using concurrent.futures.ThreadPoolExecutor and concurrent.futures.ProcessPoolExecutor.
 
