@@ -1,4 +1,4 @@
-# Project Title
+# PARALLEL AND DISTRIBUTED COMPUING ASSIGNMENT
 
 ## Table of Contents
 - [Basics Folder](#basics-folder)
