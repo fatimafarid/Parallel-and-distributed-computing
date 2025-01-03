@@ -48,3 +48,20 @@ OUTPUT OF GATHER.PY
 
 ![GATHER PY](https://github.com/user-attachments/assets/c2f7277b-f178-4af5-bf2a-0a0ce348cb2b)
 
+
+
+ALLTOALL.PY
+![Screenshot (1002)](https://github.com/user-attachments/assets/285a5686-4fc0-4fe3-9ba7-476b9490a5f5)
+
+DEADLOCKPROBLEMS.PY
+![Screenshot (1003)](https://github.com/user-attachments/assets/bc5236ff-709e-4a92-9c73-c633bf5beb73)
+
+REDUCTION.PY
+
+![Screenshot (1004)](https://github.com/user-attachments/assets/d89f0d27-9105-4354-8c37-6f15476aca27)
+
+VIRTUALTOPOLOGY.PY
+![Screenshot (1006)](https://github.com/user-attachments/assets/a732e00a-0774-4adc-a640-4da5dac2cf4c)
+
+
+
