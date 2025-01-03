@@ -1,13 +1,38 @@
 
 GATHER.PY:
+
 Collects data from all processes at the root process for aggregation or further processing.
 
 POINT_TO_POINT_COMMUNICATION.PY:
+
 Implements point-to-point communication between specific processes using send and recv.
 
 
-broadcast.py:
+BROADCAST.PY
+
 Broadcasts a variable from the root process to all other processes in the communicator.
+
+VIRTUALTOPOLOGY.PY:
+
+Python script demonstrating grid topology creation and neighbor communication using MPI and mpi4py.
+
+SCATTER.PY:
+
+Python script demonstrating array scattering across processes using MPI and mpi4py.
+
+REDUCTION.PY:
+
+Python script demonstrating MPI Reduce operation with mpi4py to sum arrays across processes
+
+ALLTOALL.PY:
+
+Python script demonstrating MPI All-to-All communication with mpi4py for exchanging data among processes
+
+DEADLOCKPROBLEMS.PY:
+
+Python script demonstrating point-to-point communication using mpi4py with send and recv
+
+
 
 OUTPUT OF POINT_TO_POINT_COMMUNICATION.PY
 ![POINT_TO_POINT 1](https://github.com/user-attachments/assets/190c9e88-d594-4cba-b08b-353de08bfb0d)
@@ -22,4 +47,4 @@ OUTPUT OF SCATTER.PY
 OUTPUT OF GATHER.PY
 
 ![GATHER PY](https://github.com/user-attachments/assets/c2f7277b-f178-4af5-bf2a-0a0ce348cb2b)
->>>>>>> 5658dd8b9495e6dab0fe53fc081eac71f3bda6c9
+
