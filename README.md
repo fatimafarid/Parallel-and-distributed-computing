@@ -1,229 +1,189 @@
+# Project Title
 
+## Table of Contents
+- [Basics Folder](#basics-folder)
+- [Chapter 1](#chapter-1)
+- [Chapter 2](#chapter-2)
+- [Chapter 3](#chapter-3)
+- [Chapter 4](#chapter-4)
+- [Chapter 5](#chapter-5)
 
-BASICS FOLDER
+## Basics Folder
 
-CODE 1: Basic calculator using Python.
+### CODE 1: Basic calculator using Python
+- A simple calculator program implementing basic arithmetic operations.
 
-CODE 2: Python code implementing lists, dictionaries, and tuples.
+### CODE 2: Python code implementing lists, dictionaries, and tuples
+- Demonstrates the usage of lists, dictionaries, and tuples in Python.
 
-CODE 3: Function to calculate sum.
+### CODE 3: Function to calculate sum
+- A Python function that calculates the sum of a given list of numbers.
 
-CODE 4: Using classes and objects.
+### CODE 4: Using classes and objects
+- A simple implementation of object-oriented programming using classes and objects in Python.
 
-CHAP 1
+## Chapter 1
 
-BANK.PY: 
+### BANK.PY
+- Uses multithreading to perform deposit and withdrawal operations on a shared balance while measuring execution time.
 
-Uses multithreading to perform deposit and withdrawal operations on a shared balance while measuring execution time.
+### DATA_PARALLELISM.PY
+- Uses a thread pool to execute two tasks (task_1 and task_2) concurrently using ThreadPoolExecutor.
 
-DATA_PARALLELISM.PY:
+### DO_SOMETHING.PY
+- Defines a function `do_something` that generates random numbers and adds them to a given list for a specified count.
 
- Uses a thread pool to execute two tasks (task_1 and task_2) concurrently using ThreadPoolExecutor.
+### FIBONACCI.PY
+- Creates multiple threads to calculate the 35th Fibonacci number concurrently and measures the total execution time.
 
-DO_SOMETHING.PY:
+### HELLO.PY
+- Performs data-parallel vector addition using NumPy, measures computation time, and displays the first 10 results.
 
- Defines a function do_something that generates random numbers and adds them to a given list for a specified count.
+### IPC.PY
+- Demonstrates inter-process communication using a queue, where a producer adds items and a consumer retrieves them in separate processes.
 
-FIBONACCI.PY:
+### MPI.PY
+- Uses MPI to enable communication between processes, where process 0 sends data to process 1, and other processes remain idle.
 
- Creates multiple threads to calculate the 35th Fibonacci number concurrently and measures the total execution time.
+### MULTIPROCESSING.PY
+- Compares the performance of multiprocessing and multithreading for a task that generates large random numbers and measures their execution times.
 
-HELLO.PY:
+### PARALLELIZATION.PY
+- Performs parallel vector addition using threads and measures execution time.
 
- Performs data-parallel vector addition using NumPy, measures computation time, and displays the first 10 results.
+### PROCESS_CREATION.PY
+- Demonstrates multiprocessing to calculate the square and cube of a number concurrently.
 
-IPC.PY:
+### SHARED_MEM.PY
+- Demonstrates threading with a lock to safely manage deposits and withdrawals on a shared balance.
 
- Demonstrates inter-process communication using a queue, where a producer adds items and a consumer retrieves them in separate processes.
+### SYNCHRONIZATION.PY
+- Demonstrates the use of a semaphore to control access to a shared resource, allowing only one thread at a time.
 
-MPI.PY:
+## Chapter 2
 
- Uses MPI to enable communication between processes, where process 0 sends data to process 1, and other processes remain idle.
+### BARRIER.PY
+- Simulates a race between three runners using threads and a barrier to synchronize their arrival at the finish line.
 
-MULTIPROCESSING.PY: 
+### CONDITION.PY
+- Implements a producer-consumer problem using threading and a condition variable to synchronize the producer and consumer threads.
 
-Compares the performance of multiprocessing and multithreading for a task that generates large random numbers and 
-measures their execution times.
+### EVENT.PY
+- Implements a simple producer-consumer problem using threading and an event to synchronize threads.
 
-PARALLELIZATION.PY:
+### MYTHREADCLASS.PY
+- Creates and runs 9 threads using the Thread class, with each thread simulating a task with a random duration.
 
- Performs parallel vector addition using threads and measures execution time.
+### MYTHREADCLASS_LOCK.PY
+- Runs 9 threads with a lock mechanism to ensure only one thread executes its critical section at a time.
 
-PROCESS_CREATION.PY:
+### MYTHREADCLASS_LOCK2.PY
+- Threads simulate random durations while ensuring mutual exclusion using a lock for printing messages.
 
- Demonstrates multiprocessing to calculate the square and cube of a number concurrently.
+### RLOCK.PY
+- Demonstrates the use of threads and reentrant locks to add and remove items from a shared box concurrently.
 
-SHARED_MEM.PY:
+### SEMAPHORE.PY
+- Demonstrates the use of semaphores to synchronize producer and consumer threads.
 
- Demonstrates threading with a lock to safely manage deposits and withdrawals on a shared balance.
+### THREADDEFINITON.PY
+- Creates and starts 10 threads, each calling the my_func function with a unique thread number.
 
-SYNCHRONIZATION.PY:
+### THREAD_DETERMINE.PY
+- Creates three threads, each executing a different function (function_A, function_B, function_C).
 
- Demonstrates the use of a semaphore to control access to a shared resource, allowing only one thread at a time.
+### THREAD_NAME_AND_PROCESSES.PY
+- Creates two threads, each printing the thread name and process ID, and joins them to wait for completion.
 
-CHAP 2
+## Chapter 3
 
-BARRIER.PY:
+### COMMUNICATING_WITH_PIPE.PY
+- Demonstrates producer-consumer communication using multiprocessing.Queue.
 
- Simulates a race between three runners using threads and a barrier to synchronize their arrival at the finish line.
+### COMMUNICATION_WITH_QUEUE.PY
+- Demonstrates multiprocessing with both daemon and non-daemon processes.
 
-CONDITION.PY:
+### DEROM.PY
+- Demonstrates creation and management of a multiprocessing process that runs a task, terminates, and joins back.
 
- Implements a producer-consumer problem using threading and a condition variable to synchronize the producer and consumer threads.
+### MYFUNC.PY
+- Function designed to be called from a process, printing process number and iteration indices.
 
-EVENT.PY:
+### NAMING_PROCESSES.PY
+- Demonstrates naming and execution of multiple processes using the multiprocessing module.
 
- Implements a simple producer-consumer problem using threading and an event to synchronize threads.
+### POINT_TO_POINT_COMMUNICATION.PY
+- Demonstrates message passing between processes using mpi4py.
 
-MYTHREADCLASS.PY:
+### PROCESS_IN_SUBCLASS.PY
+- Demonstrates creation and execution of processes using subclasses.
 
- Creates and runs 9 threads using the Thread class, with each thread simulating a task with a random duration.
+### PROCESSES_BARRIER.PY
+- Demonstrates parallel processing using multiprocessing.Pool.
 
-MYTHREADCLASS_LOCK.PY: 
+### RUN_BACKGROUND_PROCESSES_NO_DAMEONS.PY
+- Demonstrates synchronization using barriers and serialization with locks.
 
-Runs 9 threads with a lock mechanism to ensure only one thread executes its critical section at a time.
+### RUN_BACKGROUND_PROCESSES.PY
+- Demonstrates the creation of processes using the multiprocessing module.
 
-MYTHREADCLASS_LOCK2.PY:
+### SPAWNING_PROCEESSES_NAMESPACE.PY
+- Creates two processes using the multiprocessing module.
 
- Threads simulate random durations while ensuring mutual exclusion using a lock for printing messages.
+### SPAWNING_PROCESSES.PY
+- Prints messages and simulates tasks with different processes.
 
-RLOCK.PY:
+## Chapter 4
 
- Demonstrates the use of threads and reentrant locks to add and remove items from a shared box concurrently.
+### GATHER.PY
+- Collects data from all processes at the root process for aggregation or further processing.
 
-SEMAPHORE.PY:
+### POINT_TO_POINT_COMMUNICATION.PY
+- Implements point-to-point communication between specific processes using send and recv.
 
- Demonstrates the use of semaphores to synchronize producer and consumer threads.
+### BROADCAST.PY
+- Broadcasts a variable from the root process to all other processes in the communicator.
 
-THREADDEFINITON.PY: 
+### VIRTUALTOPOLOGY.PY
+- Python script demonstrating grid topology creation and neighbor communication using MPI and mpi4py.
 
-Creates and starts 10 threads, each calling the my_func function with a unique thread number.
+### SCATTER.PY
+- Python script demonstrating array scattering across processes using MPI and mpi4py.
 
-THREAD_DETERMINE.PY: 
+### REDUCTION.PY
+- Python script demonstrating MPI Reduce operation with mpi4py to sum arrays across processes.
 
-Creates three threads, each executing a different function (function_A, function_B, function_C).
+### ALLTOALL.PY
+- Python script demonstrating MPI All-to-All communication with mpi4py for exchanging data among processes.
 
-THREAD_NAME_AND_PROCESSES.PY:
+### DEADLOCKPROBLEMS.PY
+- Python script demonstrating point-to-point communication using mpi4py with send and recv.
 
- Creates two threads, each printing the thread name and process ID, and joins them to wait for completion.
+## Chapter 5
 
-CHAP 3
+### ASYNCIO_E.PY
+- An event-driven system where tasks A, B, and C are executed cyclically with random delays. The cycle continues for 60 seconds, with each task calling the next after a delay, demonstrating asynchronous execution with asyncio.
 
-COMMUNICATING_WITH_PIPE.PY:
+### CONCURRENT_FEATURES_POOLING.PY
+- This script compares the execution time for sequential, thread pool, and process pool approaches for a computationally intensive task. It uses concurrent.futures.ThreadPoolExecutor and concurrent.futures.ProcessPoolExecutor to demonstrate multi-threading and multi-processing in Python.
 
- Demonstrates producer-consumer communication using multiprocessing.Queue.
+### COROUTINE.PY
+- A simulation of a Finite State Machine (FSM) using asyncio coroutines. The system transitions asynchronously between states based on random values, providing a demonstration of coroutine-based state management and event-driven programming.
 
-COMMUNICATION_WITH_QUEUE.PY:
+### DEALING.PY
+- This script runs two asynchronous coroutines in parallel: one computes the sum of integers, and the other calculates the factorial. The use of asyncio.Future helps manage their results, allowing callbacks upon completion of each task.
 
- Demonstrates multiprocessing with both daemon and non-daemon processes.
+### EVENT_LOOPS.PY
+- This code creates a cyclic sequence of tasks (A, B, C) using asyncio. Each task calls the next one after a random sleep, creating a loop that continues for a set duration. It demonstrates task scheduling and event loop management in asyncio.
 
-DEROM.PY:
+### MANIPULATING_TASK.PY
+- This code concurrently computes the factorial and Fibonacci sequence for a number using asyncio. Each task performs its respective computation asynchronously, demonstrating the flexibility of async functions in handling multiple calculations in parallel.
 
- Demonstrates creation and management of a multiprocessing process that runs a task, terminates, and joins back.
+### TASK.PY
+- This script compares the execution times of sequential, thread pool, and process pool executions of a heavy computational task. It uses concurrent.futures.ThreadPoolExecutor and concurrent.futures.ProcessPoolExecutor to illustrate how multi-threading and multi-processing impact performance.
 
-MYFUNC.PY: 
+# To install NumPy
+pip install numpy
 
-Function designed to be called from a process, printing process number and iteration indices.
-
-NAMING_PROCESSES.PY:
-
- Demonstrates naming and execution of multiple processes using the multiprocessing module.
-
-POINT_TO_POINT_COMMUNICATION.PY:
-
- Demonstrates message passing between processes using mpi4py.
-
-PROCESS_IN_SUBCLASS.PY:
-
- Demonstrates creation and execution of processes using subclasses.
-
-PROCESSES_BARRIER.PY:
-
- Demonstrates parallel processing using multiprocessing.Pool.
-
-RUN_BACKGROUND_PROCESSES_NO_DAMEONS.PY:
-
- Demonstrates synchronization using barriers and serialization with locks.
-
-RUN_BACKGROUND_PROCESSES.PY:
-
- Demonstrates the creation of processes using the multiprocessing module.
-
-SPAWNING_PROCEESSES_NAMESPACE.PY:
-
- Creates two processes using the multiprocessing module.
-
-SPAWNING_PROCESSES.PY: 
-
-Prints messages and simulates tasks with different processes.
-
-CHAP 4
-
-GATHER.PY: 
-
-Collects data from all processes at the root process for aggregation or further processing.
-
-POINT_TO_POINT_COMMUNICATION.PY:
-
- Implements point-to-point communication between specific processes using send and recv.
-
-BROADCAST.PY:
-
- Broadcasts a variable from the root process to all other processes in the communicator.
-
-VIRTUALTOPOLOGY.PY:
-
-Python script demonstrating grid topology creation and neighbor communication using MPI and mpi4py.
-
-SCATTER.PY:
-
-Python script demonstrating array scattering across processes using MPI and mpi4py.
-
-REDUCTION.PY:
-
-Python script demonstrating MPI Reduce operation with mpi4py to sum arrays across processes
-
-ALLTOALL.PY:
-
-Python script demonstrating MPI All-to-All communication with mpi4py for exchanging data among processes
-
-DEADLOCKPROBLEMS.PY:
-
-Python script demonstrating point-to-point communication using mpi4py with send and recv
-
-CHAP 5
-
-ASYNCIO_E.PY
-
-An event-driven system where tasks A, B, and C are executed cyclically with random delays. The cycle continues for 60 seconds, with each task calling the next after a delay, demonstrating asynchronous execution with asyncio.
-
-CONCURRENT_FEATURES_POOLING.PY
-
-This script compares the execution time for sequential, thread pool, and process pool approaches for a computationally intensive task. It uses concurrent.futures.ThreadPoolExecutor and concurrent.futures.ProcessPoolExecutor to demonstrate multi-threading and multi-processing in Python.
-
-COROUTINE.PY
-
-A simulation of a Finite State Machine (FSM) using asyncio coroutines. The system transitions asynchronously between states based on random values, providing a demonstration of coroutine-based state management and event-driven programming.
-
-DEALING.PY
-
-This script runs two asynchronous coroutines in parallel: one computes the sum of integers, and the other calculates the factorial. The use of asyncio.Future helps manage their results, allowing callbacks upon completion of each task.
-
-EVENT_LOOPS.PY
-
-This code creates a cyclic sequence of tasks (A, B, C) using asyncio. Each task calls the next one after a random sleep, creating a loop that continues for a set duration. It demonstrates task scheduling and event loop management in asyncio.
-
-MANIPULATING_TASK.PY
-
-This code concurrently computes the factorial and Fibonacci sequence for a number using asyncio. Each task performs its respective computation asynchronously, demonstrating the flexibility of async functions in handling multiple calculations in parallel.
-
-TASK.PY
-
-This script compares the execution times of sequential, thread pool, and process pool executions of a heavy computational task. It uses concurrent.futures.ThreadPoolExecutor and concurrent.futures.ProcessPoolExecutor to illustrate how multi-threading and multi-processing impact performance.
-
-
-
-
-
-
-
+# To install mpi4py
+pip install mpi4py
