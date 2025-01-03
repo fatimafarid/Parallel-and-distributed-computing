@@ -2,7 +2,7 @@ import asyncio
 import time
 import random
 
-# Define task A
+# Define task A  FUNCTION
 def task_A(end_time, loop):
     print('task A called')
     time.sleep(random.randint(0, 5))
